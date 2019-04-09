@@ -12,7 +12,9 @@ Username = admin
 password = admin
 
 REST API endpoint for list of questions and json format
+
 http://127.0.0.1:8000/api/v1/question/
+
 http://127.0.0.1:8000/api/v1/question/?format=json
 
 REST API endpoint for list of choices and json format
