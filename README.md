@@ -3,12 +3,17 @@
 
 # create a virtualenv 
 C:\Users\sray\Desktop>python -m venv myvenv
+
 C:\Users\sray\Desktop>myvenv\Scripts\activate
+
 pip install -r requirements.txt
+
 python manage.py migrate
+
 python manage.py runserver
 
 Username = admin
+
 password = admin
 
 REST API endpoint for list of questions and json format
